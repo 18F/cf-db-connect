@@ -20,7 +20,11 @@ with this waiver of copyright interest.
 
 ## Development
 
-Requires Golang. After modifying the source, run
+1. Install Go.
+1. [Install Dep](https://github.com/golang/dep#setup).
+1. Run `dep ensure` from this repository directory.
+
+After modifying the source, run
 
 ```sh
 ./run.sh <app_name> <service_instance_name>
